@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="falta css">
+
+    <title>Actualizar-Pedido</title>
+</head>
+<body>
+    <form action="php/pedido-actualizar.php" method="post">
+        <div>
+            <nav class="navegacion">
+                <a href="Pedido-insertar.html" class="navegacion__enlace">Insertar datos</a>
+                <a href="Pedido-eliminar.html" class="navegacion__enlace">Eliminar Datos</a>
+                <a href="php/pedido-consultar.php" class="navegacion__enlace">Consulta de datos</a>
+            </nav>
+        </div>
+        <div class="container">
+            <h1>Actualizar Datos del Pedido</h1>
+        <div>
+        <label>ID del Pedido:</label>
+        <input type="number" name="id" >
+        </div>
+        <div>
+            <label>Total a pagar</label>
+         <input type="number" name="total" >
+         </div>
+         <div>
+             <label>Id de el empleado</label>
+          <input type="number" name="empleado" >
+          </div>
+        <div>
+            <input type="submit" value="Actualizar Datos del pedido"> 
+        </div>
+        </form>
+            </div>
+            </body>
+    </form>
+</body>
+</html>

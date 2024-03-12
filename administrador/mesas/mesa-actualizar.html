@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="falta css">
+    <title>Actualizar-mesa</title>
+</head>
+<body>
+    <form action="php/mesa-actualizar.php" method="post">
+        <div>
+            <nav class="navegacion">
+                <a href="Mesa-insertar.html" class="navegacion__enlace">Insertar datos</a>
+                <a href="Mesa-borrar.html" class="navegacion__enlace">Eliminar Datos</a>
+                <a href="php/mesa-consultar.php" class="navegacion__enlace">Consulta de datos</a>
+            </nav>
+        </div>
+        <div class="container">
+            <h1>Actualizar Datos de la mesa</h1>
+        <div>
+        <label>ID de la mesa:</label>
+        <input type="number" name="id" >
+        </div>
+        <div>
+            <label>Estatus:</label>
+         <input type="text" name="estatus" >
+         </div>
+         <div>
+             <label>Id de el empleado</label>
+          <input type="number" name="empleado" >
+          </div>
+        <div>
+            <input type="submit" value="Actualizar Datos de la mesa"> 
+        </div>
+        </form>
+            </div>
+            </body>
+    </form>
+</body>
+</html>

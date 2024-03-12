@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkFBQ9mNImtnUsyiHkCft9y5NQCd4bLnxIA&usqp=CAUU');
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10;
+    margin-bottom: 20px; /* Añadido para separar el header del contenido */
+
+}
+
+.container {
+    max-width: 600px; /* Ajustado el ancho máximo */
+    margin: auto; /* Centrado el contenedor */
+    background-color: rgba(239, 134, 99, 0.538);
+    padding: 20px;
+    border-radius: 10px; /* Reduje el radio del borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:double ;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #ffffff;
+}
+h2{
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ef9d5ea5;
+    color: #000000;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b0906c;
+}
+
+.navegacion {
+    background-color: #565656;
+    overflow: hidden;
+}
+
+.navegacion a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegacion__enlace:hover {
+    background-color: #e9b3a2;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilos de los enlaces de redes sociales en el pie de página */
+.containedor a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+    margin-top: 10%;
+}
+
+.containedor a span {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.containedor a i {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.containedor a:hover i {
+    transform: scale(1.2);
+}
